@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Ex1 {
 
 static int fatorial(int n){
@@ -11,6 +12,9 @@ static int fatorial(int n){
     return n*fatorial(n-1);
 }
 public static void main(String[] args) {
-    System.out.println("O fatorial de " + 3 + " é " + fatorial(3));
+    Scanner t = new Scanner(System.in);
+    System.out.println("Digite um número que deseja seu fatorial");
+    int num = t.nextInt();
+    System.out.println("O fatorial de " + num + " é " + fatorial(num));
 
 }}
