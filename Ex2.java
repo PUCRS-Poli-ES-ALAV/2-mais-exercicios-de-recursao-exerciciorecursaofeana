@@ -5,7 +5,7 @@ public class Ex2{
         if(n == 0){
             return n;
         }
-        return n+somatorio(int n-1);
+        return n+somatorio(n-1);
     }
 
     public static void main(String[] args) {
